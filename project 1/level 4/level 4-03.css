@@ -1,0 +1,30 @@
+/* level 4 font-style font-weight font-size font-family text-align line-height letter-spacing text-transform any additional css property color ...etc... */
+
+body {
+    float: center;
+    text-align: right;
+    margin-top: 50px;
+    width: 800px;
+}
+
+h1 {
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Merienda One', cursive;
+    line-height: 1.5em;
+    text-align: left;
+} 
+
+h4 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;      
+}
+
+h5{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 2em;
+} 

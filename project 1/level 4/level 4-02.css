@@ -1,0 +1,19 @@
+/* level 4 font-style font-weight font-size font-family text-align line-height letter-spacing text-transform any additional css property color ...etc... */
+body {
+    float: center;
+    margin:0;
+    width: 500px;
+    font-family: cursive;
+    font-style: bold;
+    line-height: 1.5em;
+} 
+
+h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1;
+    letter-spacing: 20px;
+    text-align: center;
+}
+

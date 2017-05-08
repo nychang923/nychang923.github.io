@@ -1,0 +1,27 @@
+/* level 4 font-style font-weight font-size font-family text-align line-height letter-spacing text-transform any additional css property color ...etc... */
+
+@import url('https://fonts.googleapis.com/css?family=Asar');
+
+body {
+    float: right;
+    margin-top: 300px;
+    width: 200px;
+    font-style: normal;
+    font-family: 'Asar', serif;
+}
+
+h1 {
+    font-family: 'Asar', cursive;
+    font-style: bold;
+    line-height: 2em;
+    
+} 
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.3em
+}
+
+
+
