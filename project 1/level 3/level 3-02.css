@@ -1,0 +1,15 @@
+/* level 3 div span padding border margin position display float top right bottom left hight width */
+
+body {
+    margin-top: 400px;
+    width: 200px; 
+}
+
+
+
+div {
+    padding-top: 500px;
+    padding-bottom: 250px;
+    position: relative;
+    margin: auto;
+}

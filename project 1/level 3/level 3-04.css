@@ -1,0 +1,23 @@
+/* level 3 div span padding border margin position display float top right bottom left hight width */
+* { 
+    margin:0; 
+    padding:0; 
+}
+
+body {
+    float: center;
+    margin-top: 100px;
+    width: 400px;
+}
+
+h3 {
+    display:block;
+    border-bottom-color: aqua;
+    padding-left:100px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+div h2{
+    padding-left: 300px;
+}

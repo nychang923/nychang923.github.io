@@ -1,0 +1,16 @@
+/* level 3 div span padding border margin position display float top right bottom left hight width */
+
+body {
+    float: center;
+    margin-top: 100px;
+    width: 400px;
+}
+
+H1 {
+    text-decoration: underline;
+    color:black;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
