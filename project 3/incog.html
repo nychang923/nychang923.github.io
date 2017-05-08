@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This is the title of my page -->
+        <title>Nicole Nayoung Chang</title>
+        
+        <!-- Linking up your stylesheet -->
+        
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+  
+    <body>
+
+<!------------------ Top header and navigation ------------------->
+        <header>
+            <h1>Nicole<br>Na Young<br>Chang</h1>
+            <h2>GRAPHIC & WEB DESIGNER</h2>
+            
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        
+<!------------- This is where the main content goes -------------->
+              <div class="row1">
+            <p style="font-size:300%;line-height:3em;">              
+                  
+                  incog
+                  </p>
+<p>My Senior Project is about Personal Data. In order to talk to the internet users about the danger of sharing too much personal
+information online and the suggestions to keep their personal data safe, I am making an app / a motion piece / posters portraying the details of our personal information is shared online.
+</p>
+        </div> 
+        
+        <div class="project">
+        
+       <img src="images/incog.jpg"> 
+        </div>
+          
+ 
+<!-------------------------- FOOTER ------------------------------>       
+        <footer>
+            <p><a href="mailto:nicole.nayoung@gmail.com">nicole.nayoung@gmail.com</a></p>
+        </footer>
+       
+<!--------------------- BACKGROUND EFFECTS ----------------------->
+        <canvas id="canvas"></canvas>
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+        <script src="js/index.js"></script>
+        <script>
+            /* for the header animation */
+            $(document).on("scroll", function (){
+                if
+                ($(document).scrollTop() > 100){
+                    $("header").addClass("shrink");
+                }
+                else
+                {
+                    $("header").removeClass("shrink");
+                }
+            });
+        </script>
+    </body>
+</html>

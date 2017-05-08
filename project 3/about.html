@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This is the title of my page -->
+        <title>Nicole Nayoung Chang</title>
+        
+        <!-- Linking up your stylesheet -->
+        
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+  
+    <body>
+
+        
+<!------------------ Top header and navigation ------------------->
+        <header>
+            <h1>Nicole<br>Na Young<br>Chang</h1>
+            <h2>GRAPHIC & WEB DESIGNER</h2>
+            
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        
+<!-------------- This is where the main content goes ------------->
+        
+        <div class="row1">
+             <img src="images/mypicture.png">
+            <p style="font-size:300%;line-height:1em;">Nicole Nayoung Chang (b. 1994, Los Angeles) is an artist working online. She recently completed her BFA at Otis College of Art and Design.</p>
+        </div>
+        
+        <div class="row">
+        
+            <div class="col-1-3">
+                
+            </div><!--
+            --><div class="col-2-3">
+            <p><h2>Education</h2>
+
+Bachelor of Fine Arts Graduated 2017
+in Communication Arts, emphasis in Graphic Design
+Otis College of Art and Design, Los Angeles, CA
+
+Associate of Applied Science Graduated 2015
+in Communication Design
+Fashion Institute of Technology, New York, NY
+            </p>
+            </div>
+            
+        </div>
+
+             <div class="row">
+        
+            <div class="col-1-2">
+<p><h2>Experimental Education</h2><br>
+
+Creative Action Class - Made for Kids Jan 16’ - Current<br>
+Westside Global Awareness Magnet School<br><br><br>
+- Collaborated with classmates to revitalize the learning environment for children to open up new possibilities for stimulating children’s imagination.
+- Executed and drew up a plan to reduce a budget and be efficient using Photoshop and Illustrator.
+- Collaborated with the teachers and the students constantly in the designing process.</p></div><!--
+            --><div class="col-1-2">
+<p><h2>Experience</h2><br>
+
+Graphic Designer <br>
+Feb 16’ - Current<br>
+Good Day <br>
+Korean Restaurant, Lomita, CA<br><br><br>
+
+- Analyzed the characteristic of the restaurant by listening to the owner’s mission.
+- Conceptualized and developed the visual identity for the customer experience in branding, window decal, etc. using Adobe Photoshop and Illustrator.
+- Built a relationship and counseled with overall marketing strategies.</p></div>  
+        
+        
+        <div class="row">
+        
+            <div class="col-1-4">
+           Contacts
+            </div><div class="col-1-4">
+            Email</div><!--
+            --><div class="col-1-4">
+            Instagram
+            </div><!--
+            --><div class="col-1-4">
+            Linkedin
+            </div><!--
+            -->
+        </div>
+        
+        <div class="row">
+        
+
+Day Job
+She currently lives in Los Angeles, California and works as a Digital Designer at ______.<br><br><br><br><br><br>
+
+        </div>
+        
+  
+            
+        </div>
+
+<!-------------------------- FOOTER ------------------------------>     
+        <footer>
+        <p><a href="mailto:nicole.nayoung@gmail.com">nicole.nayoung@gmail.com</a></p>
+        </footer>
+       
+<!--------------------- BACKGROUND EFFECTS ----------------------->
+        <canvas id="canvas"></canvas>
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+        <script src="js/index.js"></script>
+        <script>
+            /* for the header animation */
+            $(document).on("scroll", function (){
+                if
+                ($(document).scrollTop() > 100){
+                    $("header").addClass("shrink");
+                }
+                else
+                {
+                    $("header").removeClass("shrink");
+                }
+            });
+        </script>
+    </body>
+</html>
