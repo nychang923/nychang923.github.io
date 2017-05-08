@@ -1,0 +1,23 @@
+/* level 5 div span padding border margin position display float top right bottom left heignt width and anything else... */
+* { 
+    margin:0; 
+    padding:0; 
+}
+
+body {
+    float: center;
+    margin-top: 100px;
+    width: 400px;
+    padding-left: 100px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    font-size: 3em;
+    line-height: 5em;
+    
+} 
+
+div { text-align: right;
+}

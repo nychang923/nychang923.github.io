@@ -1,0 +1,28 @@
+/* level 5 div span padding border margin position display float top right bottom left heignt width and anything else... */
+* { 
+    margin:0; 
+    padding:0; 
+}
+
+body {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+    color:#ff0000;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    line-height: 1.5em;
+    
+} 
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;     
+    color:black
+}
+
+
+
+div {background-color: aquamarine}
